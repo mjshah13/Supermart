@@ -8,7 +8,7 @@ body {
 
 
 header {
-    margin: 0px;
+    margin: auto;
     background-color:green;
     
     width: 100%;
@@ -30,7 +30,7 @@ header {
         
     }
     .buttonPanel {
-        margin: 0;
+        margin: auto;
         background-color:aliceblue;
         
         
@@ -66,4 +66,12 @@ header {
     button:focus{
         color: red;
         border: 0px;
+    }
+    .slider{
+        height: 350px;
+        width: 80%;
+        background-color: aqua;
+        margin: auto;
+        margin-top: 15px;
+
     }
