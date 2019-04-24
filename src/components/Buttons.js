@@ -11,7 +11,7 @@ class Buttons extends React.Component{
             
                
                 <header className='buttonPanel'>
-                <button >HOME</button>
+                <button id="homebutton" >HOME</button>
                 <button >ITEMS</button>
                 <button >OFFERS</button>
                 <button >BRANCHES</button>

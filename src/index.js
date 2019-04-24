@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header';
 import Buttons from './components/Buttons';
-import Slider from './components/Slider';
+import Home from './components/Home';
+
 const App=()=>{
     return(
         <div>
             <Header/>
             <Buttons/>
-            <Slider/>
+            <Home/>
         
         </div>
     )

@@ -6,21 +6,27 @@ class Header extends React.Component{
 
     render(){
         return(
-            <div>
+            <div className="header">
            
             
-               
-                <header>
-                <img src="../assets/ssuet.png" alt="loading" className="logo" />
-                <text className='title'>
-                Grocery SuperMart
-                   </text>
-                     
-                   
-                
-            
+           
+           <text className="title">
+           Fotex SuperMart
 
-                </header>
+           </text>
+           
+           
+
+                       
+                       
+                
+                    
+                   
+                  
+        
+
+
+                
                    
            
             </div>
