@@ -1,95 +1,86 @@
 body {
+
+padding: 0;
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    background-color: aliceblue;
+    background: linear-gradient( 132deg,rgb(110, 152, 230) 60px,rgba(160, 208, 240, 0.952) ,rgb(165, 192, 250));
+    position: relative;
+    animation:  bganimation 10s ease-in-out infinite;
+    background-size: 400% 400%;
+    width: 100%;
+    height: 1200px;
+}
+@keyframes bganimation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+   100% {
+        background-position: 0% 50%;
+    }
+}
+#parent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 250px;
+    
+}
+#main{
+
+    padding: 0;
+    margin: 0%;
+
 }
 
-
-
-.header {
-    margin: auto;
-    background-color:green;
-    text-align: flex-end;
-    width: 100%;
-    height: 75px;
-    
-    }
-    .logo {
-        width: 120px;
-        height: 120px;
-         margin: 0;
-    }
     .title {
-        
-       
-    
+   display: inline-block;
     margin: auto;
-    font-family: 'Alegreya SC';
+    font-family: 'san-serif';
     font-size: 50px;
-   margin-left: 500px;
+   margin-left: 10px;
    font-weight: bold;
-   color: aliceblue;
+   color: azure;
+   margin-top: 20px;
+   text-align: start;
 
     
     }
-    
-    .buttonPanel {
-        margin:auto;
-        background-color:rgb(215, 244, 247);
+    #pay{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .imgDiv{
+        
+        margin-left: 250px;
+        margin-top: 80px;
+    }
+    #pic{
+        box-shadow: 2px 3px 100px rgba(97, 97, 211, 0.863);
+    }
+    .description{
+        text-align: left;
+        padding: 0%;
+        margin:0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 50px;
+        color: azure;
+        margin-left: 30px;
+        height: 100px;
+
+        width: 40%;
+    }
+    #form{
+        margin-left: 20px;
+        margin-right: 5px;
+        width: 40%;
         
         padding: 0%;
-        width: 100%;
-        height: 60px;
-        
-        vertical-align: middle;
-    }
-    button {
-        font-size: 15px;
-        font-weight: bolder;
-        font-family: 'Alegreya SC';
-        height: 50px;
-        width: 120px;
-        color: green;
-        margin: 5px  30px;
-        align-content: center;
-        justify-content: center;
-        border-color: rgba(22, 223, 56, 0.582);
-        background-color: transparent;
-        border-right: 0px;
-        border-left: 0px;
-        border-top: 0px;
-        border-radius: 5px;
-
 
     }
-    #homebutton{
-        margin-left: 170px;
-    }
-    button:hover{
-        box-shadow: 0 2px 3px rgba(22, 223, 56, 0.582); ;
-        color: red;
-        
-    }
-    button:focus{
-        color: red;
-        border: 0px;
-    }
-    .image{
-        height: 350px;
-        width: 70%;
-        
-        margin: auto;
-        margin-top: 10px;
-        text-align: center;
-
-    }
-    .slider {
-        text-align: center;
-    }
-    .intro {
-    font-family: 'Alegreya SC';
-    font-size: 18px;
-    padding: 15px;
-
+    .navOp{
+font-weight: bold;
     }

@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './components/Header';
-import Buttons from './components/Buttons';
-import Home from './components/Home';
+import Signin from './components/Signin';
+import Navigate from './components/Navigate';
 
+
+import Home from './components/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button,Navbar,Nav,Form,FormControl } from 'react-bootstrap';
 const App=()=>{
     return(
-        <div>
-            <Header/>
-            <Buttons/>
+        <div id='main'>
+          <Navigate/>
             <Home/>
-        
+            <Signin/>
         </div>
+
     )
 }
 
