@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Signin from './components/Signin';
 import Navigate from './components/Navigate';
-
-
+import Cards from './components/Cards';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button,Navbar,Nav,Form,FormControl } from 'react-bootstrap';
+import Footer from './components/Footer';
+
 const App=()=>{
     return(
         <div id='main'>
           <Navigate/>
             <Home/>
-            <Signin/>
+            <Cards/>
+            <Footer/>
         </div>
 
     )

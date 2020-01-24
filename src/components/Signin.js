@@ -24,7 +24,7 @@ class Signin extends React.Component{
   <Form.Group controlId="formBasicCheckbox">
     <Form.Check type="checkbox" label="Keep me logged in" />
   </Form.Group>
-  <Button variant="primary" type="submit">
+  <Button variant="light" type="submit">
     Sign in
   </Button>
 </Form>

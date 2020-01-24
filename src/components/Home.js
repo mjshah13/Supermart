@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {FormControl,Col,FormGroup,Form ,validated,InputGroup,Button} from 'react-bootstrap';
+import {Card,Button,Badge,Carousel,Accordion} from 'react-bootstrap';
 
 class Home extends React.Component{
 
@@ -8,24 +8,36 @@ class Home extends React.Component{
        
         return(
         <div id='parent'>
-             <p className='description'> Modern online and 
-             offline payment of Africa</p>
-        
+
+            <div id='sliderCard'>
+            <Carousel id='slider'>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={require('../assets/one.jpg')}
+      alt="First slide"
+    />
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={require('../assets/two.jpg')}
+      alt="Third slide"
+    />
+
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={require('../assets/three.jpg')}
+      alt="Third slide"
+    />
+
+  </Carousel.Item>
+</Carousel>
+            </div>
           
-        
- 
-             <div className='imgDiv'>
-        
-                <img id='pic' src={require('../assets/Capture.PNG')} />
-          
-         
-        
-                    
-           
- 
- 
-             </div>
-     
             </div>
         
         )

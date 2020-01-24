@@ -4,35 +4,36 @@ padding: 0;
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    background: linear-gradient( 132deg,rgb(110, 152, 230) 60px,rgba(160, 208, 240, 0.952) ,rgb(165, 192, 250));
-    position: relative;
-    animation:  bganimation 10s ease-in-out infinite;
-    background-size: 400% 400%;
+    background: linear-gradient( 132deg,rgb(236, 234, 234) 60px,rgb(255, 255, 255) ,rgb(255, 255, 255));
+    position: fixed;
+    border: none;
+    
     width: 100%;
-    height: 1200px;
+    height: 100%;
 }
-@keyframes bganimation{
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-   100% {
-        background-position: 0% 50%;
-    }
-}
+
+
+
 #parent{
+
+    position: relative;
     display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    height: 250px;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
     
 }
 #main{
-
+display: flex;
+flex-direction: column;
     padding: 0;
     margin: 0%;
+
 
 }
 
@@ -49,14 +50,17 @@ padding: 0;
 
     
     }
-    #pay{
-        font-size: 40px;
+    #auc{
+        font-size: 50px;
         font-weight: bolder;
+        font-family: Garamond;
+        margin: 0px;
     }
-    .imgDiv{
-        
-        margin-left: 250px;
-        margin-top: 80px;
+    
+    .pay{
+        font-size: 80px;
+        font-weight: bolder;
+        font-family: Garamond;
     }
     #pic{
         box-shadow: 2px 3px 100px rgba(97, 97, 211, 0.863);
@@ -83,4 +87,250 @@ padding: 0;
     }
     .navOp{
 font-weight: bold;
+
     }
+    #signbutton{
+        font-weight: bold;
+        color: gray;
+        
+
+    }
+    #signbutton:hover{
+        background-color: transparent;
+        color:black ;
+        border: 0;
+    
+    
+    }
+    #navbar{
+    opacity:1;
+    translate: 0.1;
+    
+    }
+    #sliderCard{
+        align-items: stretch;
+        justify-content: center;
+        
+        height:400px;
+        width: 100%;
+        position: relative;
+    display: flex;
+    flex-direction: row;
+        align-items: fixed;
+        box-sizing: border-box;
+        padding: 0;
+
+    }
+    .carousel-indicators li{
+        display: none;
+    }
+    a.carousel-control-next{
+        display:none;
+    }
+    a.carousel-control-prev{
+        display: none;
+    }
+    nav#navbar.navbar.navbar-expand-lg.navbar-light.bg-light{
+        padding-right: 0;
+        
+        padding-left: 10px;
+
+    }
+    .cards{
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .badgeCard{
+        margin-left: 10px;
+    }
+    .searchbar{
+        border-radius: 20px;
+    }
+    #foot{
+        display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    height: 300px;
+    width: 100%;
+background-color: transparent;    
+    }
+.footer{
+
+    display: flex;
+    flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    background-color: transparent;
+    
+}
+.links{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.links:hover{
+    color: blue;
+}
+#para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+#button{
+    display: none;
+    flex-direction: column;
+    margin: 0;
+height: 35px;
+width: 40px;
+background-color:transparent;
+align-items: center;
+justify-content: center;
+outline: none;
+border: none;
+cursor: pointer;
+box-sizing: border-box;
+padding:0;
+}
+
+#searchButton{
+    display: none;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding: 0px;
+    border:none;
+    }
+#button:focus{
+    outline: none;
+
+}
+.but{
+    border: 1px;
+    border-radius: 30%;
+    margin-bottom:5px ;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
+#searchButton{
+    height: 35px;
+    width: 40px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+  #card{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   #navbar{
+       margin: 0;
+       border:none;
+       padding: 0;
+   }
+   a.navbar-brand{
+       margin: 0;
+       padding-right: 0;
+   }
+    #auc{
+        font-size: 30px;
+        
+        
+        
+    }
+    #side{
+        margin: 0;
+        padding: 0;
+    }
+    #search{
+        display: none;
+    }
+    #searchform{
+    display: none;}
+    
+#signbutton{
+    display: none;
+}
+#mr-auto{
+    display: none;
+}
+#searchButton{
+    display: inline;
+}
+#sliderCard{
+    height: 360px;
+    width: 100%;
+}
+
+#slider.carousel.slide{
+    height: 400px;
+}
+
+
+#button{
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    
+        #card{
+            display: flex;
+            flex-direction: column;
+        }
+        
+       #navbar{
+           margin: 0;
+           border:none;
+           padding: 0;
+       }
+       a.navbar-brand{
+           margin: 0;
+           padding-right: 0;
+       }
+        #auc{
+            font-size: 30px;
+            
+            
+            
+        }
+        #side{
+            margin: 0;
+            padding: 0;
+        }
+        #search{
+            display: none;
+        }
+        #searchform{
+        display: none;}
+        
+    #signbutton{
+        display: none;
+    }
+    #mr-auto{
+        display: none;
+    }
+    #searchButton{
+        display: inline;
+    }
+    #sliderCard{
+        height: 360px;
+        width: 100%;
+    }
+    
+    #slider.carousel.slide{
+        height: 0px;
+    }
+    
+    
+    #button{
+        display: flex;
+    }
+  }
